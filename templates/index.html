@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Medical Image Analysis</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+  <h1>AI-Powered Medical Image Analysis</h1>
+  <p>Upload a chest X-ray image to predict whether it is Normal or Pneumonia.</p>
+
+  <form method="POST" enctype="multipart/form-data">
+    <input type="file" name="image" required>
+    <button type="submit">Predict</button>
+  </form>
+
+  {% if image_path %}
+    <div class="image-preview">
+      <h3>Uploaded Image</h3>
+      <img src="{{ image_path }}" alt="Uploaded Image">
+    </div>
+  {% endif %}
+
+  {% if prediction %}
+    <div class="result">
+      <h2>Prediction: {{ prediction }}</h2>
+      <p>Confidence: {{ confidence }}%</p>
+    </div>
+  {% endif %}
+
+</div>
+
+</body>
+</html>
