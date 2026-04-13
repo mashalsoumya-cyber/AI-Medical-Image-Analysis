@@ -6,7 +6,8 @@
 
 ## 📸 Demo
 
-![Project Demo](project-demo.png)
+![Project Demo](<img width="944" height="889" alt="image" src="https://github.com/user-attachments/assets/c56e8892-9442-4f20-9b18-8f6648cdd95f" />
+)
 
 ---
 
