@@ -114,6 +114,7 @@ Result + confidence displayed
 ✨ Explainable AI (Heatmaps)
 ✨ Multi-disease detection
 
-<img width="1908" height="961" alt="Screenshot 2026-04-13 211727" src="https://github.com/user-attachments/assets/55d6fa59-bf00-4194-83ba-6e740a28d7e3" />
+<img width="944" height="889" alt="image" src="https://github.com/user-attachments/assets/aa625ed9-c0cb-48da-b8ac-57cee93429b9" />
+
 
 
